@@ -34,3 +34,4 @@ foreach (string kintVid in vilniausMiskas.Medziai)
     Console.Write($"{kintVid}, ");
 }
 Console.WriteLine($"\nViso medziu yra: {vilniausMiskas.Medziai.Count}");
+Console.WriteLine("Pridedu paskutine eilute");
