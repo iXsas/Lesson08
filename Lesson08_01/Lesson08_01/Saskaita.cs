@@ -8,14 +8,14 @@ namespace Lesson08_01
 {
 public class Saskaita
 {
-public string Gavejas { get; set; }
+public string _gavejas { get; set; }
 public string Siuntejas { get; set; }
 public int MoketiViso { get; set; }
 public string SaskaitosNumeris { get; set; }
 
 public Saskaita(string gavejas, string siuntejas, int moketiViso)
 {
-    Gavejas = gavejas;
+    _gavejas = gavejas;
     Siuntejas = siuntejas;
     MoketiViso = moketiViso;
     SaskaitosNumeris = $"NR_{DateTime.Now.Year}_{DateTime.Now.Month}_{DateTime.Now.Day}_01";
